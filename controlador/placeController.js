@@ -20,7 +20,7 @@ let PlaceController = {
         })
         },
     find (req,res){
-        place.findById({
+        Place.findById({
             _id: req.params.id
 
         })
